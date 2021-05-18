@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Runescape Style Rock-Paper-Scissors Game</title>
+  <meta charset="UTF-8"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+  
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <H1>Gielnor needs your help!</H1>
+    </header>
+  
+    <div class="content">
+      <div class="scoreArea">
+        <div class="health">
+          <p>Your health</p>
+          <img src="images/Hitpoints.png" alt="User's Hitpoints">
+          <div class="healthTextDiv"><span id="userHealthNum">10</span></div>
+        </div>
+        <div class="health" >
+          <p>Opponent's health</p>
+          <img src="images/Hitpoints.png" alt="Opponents's Hitpoints">
+          <div class="healthTextDiv"><span id="opponentHealthNum">10</span></div>
+        </div>
+      </div>
+    
+      <div class="choose">
+        <p>Choose your attack.</p>
+      </div>
+    
+      <div class="choiceOptions">
+          <div class="choice" id="melee">
+            <img src="images/Attack.png" alt="Melee">
+          </div>
+          <div class="choice" id="magic">
+            <img src="images/Magic.png" alt="Magic">
+          </div>
+          <div class="choice" id="ranged">
+              <img src="images/Ranged.png" alt="Ranged">
+          </div>
+      </div>
+    
+      <div class="result">
+        <p>The God Wars have returned. Zamorak is planning to invade this world. As a champion of Guthix, are you prepared to protect Gielnor with your life?<br>
+            Use your knowledge of the combat triangle to beat Zamorak's best fighter, one that knows all three combat styles. Good luck.<br><br>
+          Hint: Melee beats Ranged, Magic beats Melee, Ranged beats Magic.</p>
+      </div>
+    </div>
+    
+    <footer>
+      <button id="reset">Reset</button>
+      <div class="contacts">
+        <a href="https://github.com/Austin-Stevenson"><img src="images/Github.png" alt="Github" id="github" ></a>
+        <a href="https://www.linkedin.com/in/austin-stevenson-5a6033187/"><img src="images/LinkedIn.png" alt="LinkedIn" id="linkedin" ></a>
+    </footer>
+  </div>
+  <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
