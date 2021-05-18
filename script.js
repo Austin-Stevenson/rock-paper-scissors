@@ -103,7 +103,7 @@ function lose(playerSelection) {
             case "ranged":
                 userHealth_span.innerHTML = userHealth;
                 opponentHealth_span.innerHTML = opponentHealth;
-                result_div.innerHTML = "The warrior charges at you, making you panic and miss all of your arrow. The sword slashes through your dragonhide.<br><br>(Melee beats ranged)"
+                result_div.innerHTML = "The warrior charges at you, making you panic and miss all of your arrows. The sword slashes through your dragonhide.<br><br>(Melee beats ranged)"
                 break;
             }
     } else if (userHealth === 1) { 
